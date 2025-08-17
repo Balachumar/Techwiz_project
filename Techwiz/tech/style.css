@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d6efd;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    height: 60vh;
+    background: url(plane.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    padding: 2rem;
+    border-radius: 10px;
+    color: #000;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #0d6efd;
+    padding: 0.7rem 1.5rem;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056d6;
+}
+
+.packages {
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages h2 {
+    margin-bottom: 1.5rem;
+}
+
+.package-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.package-card img {
+    width: 100%;
+    height: auto;
+}
+
+.package-card h3 {
+    padding: 1rem;
+}
+
+.package-card p {
+    padding: 0 1rem;
+    color: #555;
+}
+
+.price {
+    display: block;
+    padding: 1rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.package-card .btn {
+    display: block;
+    margin: 0 1rem 1rem;
+    text-align: center;
+}
+
+.more{
+    background-color: #0d6efd;
+    padding: 0.7rem 1.5rem;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.seemore {
+    margin-top: 50px;
+}
+
+.more:hover {
+    background-color: #0056d6;
+}
+
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
